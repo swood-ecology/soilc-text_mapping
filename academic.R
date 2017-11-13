@@ -2,7 +2,6 @@
 # install_github("massimoaria/bibliometrix")
 library(tidyverse) # for general purpose data manip
 library(bibliometrix) # For reading and analyzing ISI stuff
-# install.packages('crminer')
 library(crminer) # for getting texts from DOI
 library(XML) # for parsing elsevier xml responses
 library(rvest) # for parsing html responses
