@@ -1,3 +1,0 @@
-#!/bin/bash
-
-gzcat -d -r [directory]/ > [filename].json
