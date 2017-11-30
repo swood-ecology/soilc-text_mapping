@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Download necessary zipped files into specified downloads folder
+cd ~/Documents/Twitter/PTDataDownload
+./run.sh
+
+# Unzip files and merge into single file
+gzcat -d -r ~/Documents/Twitter/PTDataDownload/downloads/ > ~/Documents/Twitter/twitter.json
+
+# Count number of .json files before merging
+find ~/Documents/Twitter/PTDataDownload/downloads -print | wc -l
